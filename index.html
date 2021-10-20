@@ -1,117 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bee Website</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
     />
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar Section -->
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="/" id="navbar__logo">
-                <i class="fas fa-cubes"></i> BEE</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">Blog</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/products.html" class="navbar__links">Products</a>
-                </li>
-                <li class="navbar__btn">
-                    <a href="/" class="button">Sign Up</a>
-                </li>
-            </ul>
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"> <i class="fas fa-cubes"></i> BEE</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Blog</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/products.html" class="navbar__links">Products</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="./login.html" class="button">Login</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-
+    
     <!-- Hero Section -->
     <div class="main">
-        <div class="main__container">
-            <div class="main__content">
-                <h1>BEE'STORE</h1>
-                <h2>BEAUTY & HEALTHY</h2>
-                <p>You are apple in my eyes.</p>
-                <button class="main__btn"><a href="/">Get Started</a></button>
-            </div>
-            <div class="main__img--container">
-                <img src="images/pic1.svg" alt="pic" id="main__img">
-            </div>
+      <div class="main__container">
+        <div class="main__content">
+          <h1>BEE'STORE</h1>
+          <h2>BEAUTY & HEALTHY</h2>
+          <p>You are apple in my eyes.</p>
+          <button class="main__btn"><a href="/">Get Started</a></button>
         </div>
+        <div class="main__img--container">
+          <img src="images/pic1.svg" alt="pic" id="main__img" />
+        </div>
+      </div>
     </div>
 
     <!-- Service Section -->
     <div class="services">
-        <h1>NEW & TRENDING</h1>
-        <div class="services__container">
-            <div class="services__card">
-                <h2>SKIN ANALYZER</h2>
-                <p>Find the Product Skin Care Solution for You</p>
-                <button>Start Now</button>
-            </div>
-            <div class="services__card">
-                <h2>BECOME A MEMBER</h2>
-                <p>Discover the Rewards of Membership</p>
-                <button>Join Today</button>
-            </div>
+      <h1>NEW & TRENDING</h1>
+      <div class="services__container">
+        <div class="services__card">
+          <h2>SKIN ANALYZER</h2>
+          <p>Find the Product Skin Care Solution for You</p>
+          <button>Start Now</button>
         </div>
+        <div class="services__card">
+          <h2>BECOME A MEMBER</h2>
+          <p>Discover the Rewards of Membership</p>
+          <button>Join Today</button>
+        </div>
+      </div>
     </div>
 
     <!-- Footer Section -->
     <div class="footer__container">
-        <div class="footer__links">
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>CONTACT US</h2>
-                    <a href="/">Email US</a>
-                    <a href="/">(+84)988-830-217</a>
-                    <a href="/">Find a Store</a>
-                    <a href="/">Customer Care</a>
-                    <a href="/">COVID-19 Information</a>
-                </div>
-            </div>
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+
+          <div class="footer__link--items">
+            <h2>CONTACT US</h2>
+            <a href="/">Email US</a>
+            <a href="/">(+84)988-830-217</a>
+            <a href="/">Find a Store</a>
+            <a href="/">Customer Care</a>
+            <a href="/">COVID-19 Information</a>
+          </div>
+
+          <div class="footer__link--items">
+            <h2>ABOUT US</h2>
+            <a href="./about.html">Introduction</a>
+            <a href="./about.html">About Me</a>
+            <a href="./about.html">Experience</a>
+            <a href="./about.html">Hobby</a>
+            <a href="./about.html">Contact</a>
+          </div>
+
+          <div class="footer__link--items">
+            <h2>SIGN UP</h2>
+            <a href="/">With Facebook</a>
+            <a href="/">With Google</a>
+            <a href="/">With Twitter</a>
+            <a href="/">With icloud</a>
+            <a href="/">With Phone-num</a>
+          </div>
+
         </div>
-        <div class="social__media">
-            <div class="social__media--wrap">
-                <div class="footer__logo"> 
-                    <a href="/" id="footer__logo"><i class="fas fa-cubes">BEE</i></a>
-                </div>
-                <p class="website__rights">© BEE 2021. All rights reserved.</p>
-                <div class="social__icons">
-                    <a href="/" class="social__icon--link" target="_blank">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="/" class="social__icon--link" target="_blank">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="/" class="social__icon--link" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="/" class="social__icon--link" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
-            </div>
+      </div>
+
+      <div class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"><i class="fas fa-cubes">BEE</i></a>
+          </div>
+          <p class="website__rights">© BEE 2021. All rights reserved.</p>
+          <div class="social__icons">
+            <a
+              href="https://www.facebook.com/myhoan2805/"
+              class="social__icon--link"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UChjvkzAVg6fOLFHRYJYQsBw"
+              class="social__icon--link"
+              target="_blank"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/hoan__hoan__/?fbclid=IwAR3cD0Yr9X6rGtsCGCa2deecgaOtaYNdvqKv4Q0ywKidqR-nbi21OmFouA0"
+              class="social__icon--link"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com/HHoan2805"
+              class="social__icon--link"
+              target="_blank"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

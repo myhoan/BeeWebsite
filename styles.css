@@ -583,6 +583,7 @@
   .social__media--wrap {
     flex-direction: column;
   }
+
 }
 
 @media screen and (max-width:480px) {
